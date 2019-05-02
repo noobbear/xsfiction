@@ -1,0 +1,104 @@
+
+/*******主页*******/
+body {
+	background: #f2f2f2;
+}
+.clear{
+	clear: both;
+}
+.s{
+	width: 100%;
+}
+.s button{
+	display: block;
+	float: right;
+}
+.s .b1{
+	width: 60px;
+	height: 30px;
+	background: #bdea7c;
+}
+.s .b2{
+	width: 60px;
+	height: 30px;
+	background: #e6c2c2;
+}
+.s .b3{
+	width: 60px;
+	height: 30px;
+	background: #8edaf0;
+}
+.s .b4{
+	width: 60px;
+	height: 30px;
+	background: #ffffff;
+}
+.index .p {
+	background: #FFFFFF;
+	width: 1000px;
+	height: 400px;
+	margin: 10% auto;
+	box-shadow: 1px 1px 20px 0px #46d1cf;
+	text-align: center;
+	position: relative;
+	vertical-align: middle;
+}
+
+.index .p .logo{
+	margin-top: 30px;
+	width: 100%;
+}
+.index .p .index-logo {
+	width: 200px;
+	margin: 0 auto;
+}
+
+.index .p .shuoming {
+	font-size: 15px;
+	color: gray;
+	width: 100%;
+	position: absolute;
+	bottom: 10px;
+}
+
+.index .p .form {
+	width: 100%;
+	height: 200px;
+	font-family: "仿宋", system;
+}
+
+.index .p .form input {
+	font-family: inherit;
+	width: 500px;
+	height: 40px;
+	font-size: 20px;
+	margin-top: 80px;
+	border-radius: 10px;
+	border: 1px solid #46D1CF;
+	padding-left: 15px;
+	outline: none;
+}
+
+.index .p .form input:focus {
+	border: 1px solid greenyellow;
+}
+
+.index .p .form button {
+	font-family: inherit;
+	width: 80px;
+	height: 43px;
+	font-size: 19px;
+	border-radius: 10px;
+	border: none;
+	outline: none;
+	color: #FFFFFF;
+	background: #46D1CF;
+}
+
+.index .p .form button:hover {
+	background: #30d102;
+}
+
+.index .p .form button i {
+	font-size: 16px;
+}

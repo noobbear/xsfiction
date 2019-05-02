@@ -1,0 +1,29 @@
+/*********加载动画***************/
+@keyframes loading {
+	100% {
+		transform: rotate(350deg);
+	}
+}
+@keyframes rotateX {
+	100% {
+		transform: rotateX(360deg);
+	}
+}
+@-webkit-keyframes loading{
+/* Safari 与 Chrome */
+	100% {
+		-webkit-transform: rotate(360deg);
+	}
+}
+@-webkit-keyframes rotateX {
+	100% {
+		-webkit-transform: rotateX(360deg);
+	}
+}
+.rotate img{
+	width: 60px;
+	animation: loading 2s linear infinite;
+}
+html,body {
+	background: #f2f2f2;
+}

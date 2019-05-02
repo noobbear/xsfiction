@@ -1,0 +1,157 @@
+.clear{
+	clear: both;
+}
+.container{
+	background: #f2f2f2;
+}
+.details {
+	background: #b1e3f4;
+	width: 1000px;
+	margin: 50px auto;
+	box-shadow: 1px 1px 20px 0px #46d1cf;
+	text-align: center;
+	position: relative;
+	vertical-align: middle;
+}
+.s{
+	width: 100%;
+}
+.s button{
+	display: block;
+	float: right;
+}
+.s .b1{
+	width: 60px;
+	height: 30px;
+	background: #bdea7c;
+}
+.s .b2{
+	width: 60px;
+	height: 30px;
+	background: #e6c2c2;
+}
+.s .b3{
+	width: 60px;
+	height: 30px;
+	background: #8edaf0;
+}
+.s .b4{
+	width: 60px;
+	height: 30px;
+	background: #ffffff;
+}
+.s .b5{
+	width: 60px;
+	height: 30px;
+	background: #e0dbdb;
+}
+.s .b6{
+	width: 60px;
+	height: 30px;
+	background: #a2a2a2;
+}
+.details .logo{
+	margin-top: 30px;
+	width: 100%;
+}
+.details .index-logo {
+	width: 200px;
+	margin: 0 auto;
+}
+
+.details .header{
+	width: 100%;
+	border: 1px solid #46d1cf;
+	margin: 20px auto;
+	padding-top: 20px;
+	text-align: left;
+	margin-bottom: 20px;
+}
+
+.details .header img{
+	float:left;
+	border-radius: 8px;
+	outline: none;
+	width: 130px;
+	height: 160px;
+	margin-left: 20px;
+}
+
+.details .header .text{
+	padding-left:20px;
+	text-align: left;
+}
+.details .header  span{
+	margin-right: 5px;
+}
+.details .header .text span:first-child{
+	color: #000000;
+}
+.details .header .name{
+	text-indent: 20px;
+	font-weight: 600;
+	padding-top: 10px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+.details .header .author{
+	text-indent: 20px;
+}
+.details .header .from{
+	overflow:hidden ;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+
+.details .header .description{
+	display: block;
+	text-align: left;
+	text-indent: 2em;
+	font-size: 18px;
+	color: #777777;
+	height: auto;
+	min-height: 100px;
+	padding-right: 30px;
+	overflow:hidden ;
+	white-space: normal;
+	text-overflow: ellipsis;
+}
+
+.details .content{
+	width: 100%;
+	height: auto;
+	border: 1px solid #46d1cf;
+}
+.details .content .h{
+	background: #68b9d1;
+	font-size: 20px;
+	margin: 2px;
+}
+.details .content dl dd{
+	border-bottom: 1px dashed #CCC;
+    display: inline;
+    float: left;
+    height: 25px;
+    line-height: 200%;
+    font-size: 13px;
+    margin-bottom: 5px;
+    overflow: hidden;
+    text-align: left;
+    text-indent: 10px;
+    vertical-align: middle;
+    width: 33%;
+}
+.details .content dl dd.pre,.details .content dl dd.next{
+	font-size: 16px;
+	width: 50%;
+	text-align: center;
+}
+
+
+
+.details .shuoming {
+	font-size: 15px;
+	color: gray;
+	width: 100%;
+	margin-top: 10px;
+}

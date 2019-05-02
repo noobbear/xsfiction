@@ -1,0 +1,167 @@
+.container{
+	background: #f2f2f2;
+}
+.list {
+	background: #FFFFFF;
+	width: 1000px;
+	margin: 50px auto;
+	box-shadow: 1px 1px 20px 0px #46d1cf;
+	text-align: center;
+	position: relative;
+	vertical-align: middle;
+}
+
+.list .logo{
+	margin-top: 30px;
+	width: 100%;
+}
+.list .index-logo {
+	width: 200px;
+	margin: 0 auto;
+}
+
+.list .shuoming {
+	font-size: 15px;
+	color: gray;
+	width: 100%;
+	position: absolute;
+	bottom: 10px;
+}
+
+.list .form {
+	width: 100%;
+	height: 200px;
+	font-family: "仿宋", system;
+}
+
+.list .form input {
+	font-family: inherit;
+	width: 500px;
+	height: 40px;
+	font-size: 20px;
+	margin-top: 80px;
+	border-radius: 10px;
+	border: 1px solid #46D1CF;
+	padding-left: 15px;
+	outline: none;
+}
+
+.list .form input:focus {
+	border: 1px solid greenyellow;
+}
+
+.list .form button {
+	font-family: inherit;
+	width: 80px;
+	height: 43px;
+	font-size: 19px;
+	border-radius: 10px;
+	border: none;
+	outline: none;
+	color: #FFFFFF;
+	background: #46D1CF;
+}
+
+.list .form button:hover {
+	background: #30d102;
+}
+
+.list .form button i {
+	font-size: 16px;
+}
+
+.header{
+	width: 60%;
+	height: auto;
+	text-align: center;
+	margin: 0 auto;
+	margin-top: 20px;
+	border-bottom: 1px solid skyblue;
+}
+.header span{
+	font-family: "仿宋",system;
+	font-size: 29px;
+	font-weight: 600;
+}
+.list .ll{
+	width: 900px;
+	list-style: none;
+	margin: 0 auto;
+	padding: 0px;
+	padding-bottom: 100px;
+}
+.list .ll li{
+	display: block;
+	margin-top: 20px;
+	width: 100%;
+	max-height: 900px;
+	overflow: hidden;
+	box-shadow: 0px 0px 20px 0px #838f8e;
+	position: relative;
+	font-family: "仿宋", system;
+	outline: none;
+	border-radius: 5px;
+}
+.list .ll li a{
+	display: block;
+	text-decoration: none;
+}
+.list .ll li:first-child{
+	margin-top: 50px;
+}
+.list .ll li:hover{
+	box-shadow: 0px 0px 20px 0px deepskyblue;
+	transform: scale(1.05,1.05) ;
+}
+.list .ll li img{
+	float:left;
+	border-radius: 8px;
+	outline: none;
+	width: 100px;
+	height: 120px;
+	position: absolute;
+	top: 10px;
+	left:10px;
+}
+.list .ll li .text{
+	margin-left:130px;
+	text-align: left;
+}
+.list .ll li .text span:first-child{
+	color: #000000;
+}
+.list .ll li .name{
+	font-weight: 600;
+	padding-top: 10px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+.list .ll li .from{
+	overflow:hidden ;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+.list .ll li .from span{
+	margin-right: 10px;
+}
+.list .ll li .description{
+	display: block;
+	text-align: left;
+	text-indent: 2em;
+	font-size: 15px;
+	font-weight: 600;
+	color: #777777;
+	height: auto;
+	min-height: 50px;
+	max-height: 110px;
+	padding-right: 30px;
+	overflow:hidden ;
+	white-space: normal;
+	text-overflow: ellipsis;
+}
+.btn.more{
+	display: block;
+	font-size: 18px;
+	font-weight: 800;
+	padding: 5px;
+}
